@@ -16,12 +16,19 @@ export default {
 </script>
 
 <style lang="scss">
+@font-face {
+  font-family: 'Raleway';
+  src: url('~@/assets/fonts/Raleway-VariableFont_wght.ttf')
+}
+
+
 #app {
   .v-application--wrap {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #0A0171;
   }
 }
 </style>
