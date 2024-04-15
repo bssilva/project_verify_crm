@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <v-app>
     <Login />
-  </div>
+  </v-app>
 </template>
 
 <script>
@@ -15,6 +15,13 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+#app {
+  .v-application--wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
 </style>
