@@ -1,19 +1,19 @@
 <template>
   <v-app>
-    <!-- <Login /> -->
-    <FindDoctor />
+    <Login />
+    <!-- <FindDoctor /> -->
   </v-app>
 </template>
 
 <script>
-// import Login from './template/views/login/LoginView.vue'
-import FindDoctor from './template/views/find_doctor/FindDoctor.vue'
+import Login from './template/views/login/LoginView.vue'
+// import FindDoctor from './template/views/find_doctor/FindDoctor.vue'
 
 export default {
   name: 'App',
   components: {
-    // Login,
-    FindDoctor
+    Login
+    // FindDoctor
   }
 }
 </script>
@@ -23,7 +23,6 @@ export default {
   font-family: 'Raleway';
   src: url('~@/assets/fonts/Raleway-VariableFont_wght.ttf')
 }
-
 
 #app {
   .v-application--wrap {
