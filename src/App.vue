@@ -1,19 +1,22 @@
 <template>
   <v-app>
-    <Login />
-    <!-- <FindDoctor /> -->
+    <!-- <Login />-->
+    <!--<FindDoctor /> -->
+    <InfoDoctor />
   </v-app>
 </template>
 
 <script>
-import Login from './template/views/login/LoginView.vue'
+// import Login from './template/views/login/LoginView.vue'
 // import FindDoctor from './template/views/find_doctor/FindDoctor.vue'
+import InfoDoctor from './template/views/info_doctor/InfoDoctor.vue'
 
 export default {
   name: 'App',
   components: {
-    Login
+    // Login
     // FindDoctor
+    InfoDoctor
   }
 }
 </script>
